@@ -1,4 +1,6 @@
 <?php
+require_once "./common/functions.php";
+
 require_once "./common/template.php";
 
 headerDisplay("Login to Notification Manager");

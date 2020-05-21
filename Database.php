@@ -1,22 +1,20 @@
 <?php
 class Database{
 	public $file;
+	public $all_records;
 
 	function __construct($file){
     $this->file = $file;
-
-    }
     
-    public function get_all()
-    {
-        $db = fopen($this->file, "r") or die("Unable to open file!");
+      $db = fopen($this->file, "r") or die("Unable to open file!");
     	$data = fread($db,filesize($this->file));
         fclose($db);
         //got the initial content of the file in text/json format and covert to array  
-    	return json_decode($data,true);
-        
+    	 
+  $this->all_records =json_decode($data,true);
     }
     
+   
     public function save_all($all_records){
         $db = fopen($this->file, "w") or die("Unable to open file!");
        
@@ -26,14 +24,14 @@ class Database{
     public function insert($newRecordArray){
         
 
-      array_push($this->get_all(), $newRecordArray);
+      array_push($this->all_records, $newRecordArray);
         
-       $this->save_all($this->get_all());
+       $this->save_all($this->all_records);
 
     }
 
     public function get_all_records(){
-    return $this->get_all();
+    return $this->all_records;
 
     }
     public function deleteRecord($cond){

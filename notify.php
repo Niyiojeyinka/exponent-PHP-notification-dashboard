@@ -1,10 +1,12 @@
 <?php
+require_once "./common/functions.php";
+
 session_start();
 require_once "./common/template.php";
 if(!isset($_SESSION['user'])){
 
     setErrorFlash("Login first");
-        header("Location: index.php");
+        redirect("index.php");
 }
 
 
@@ -15,12 +17,12 @@ $content =$_POST['content'];
 //send
 //delete the one with device not register
 require_once "Database.php";
-$conn = new Database("devices.json");
+$conn = new Database("data/devices.json");
 $devices = $conn->get_all_records();
 
    $payLoad =[];
     foreach ($devices as $device) {
-    $each=["to"=>$device['token'],"sound"=>"default","title"=>$title,"content"=>$content];
+    $each=["to"=>$device['token'],"sound"=>"default","title"=>$title,"body"=>$content];
 
         if( !empty($device['token'] )){
             array_push($payLoad,$each);

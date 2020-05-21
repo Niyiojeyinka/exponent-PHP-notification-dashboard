@@ -1,0 +1,4 @@
+RewriteEngine on 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?raja\.ng/note [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?raja\.ng/note.*$ [NC] 
+RewriteRule \.(json)$ /messageforcurious [L]

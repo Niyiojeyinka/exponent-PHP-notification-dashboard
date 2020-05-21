@@ -7,7 +7,11 @@ function headerDisplay($title){
 <html>
 <head>
 <title><?= $title?></title>
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>-->
 <link rel="Stylesheet" href="./assets/w3.css"/>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body style="height:100vh;">
 <header class="w3-top w3-padding-large w3-pink">
@@ -36,23 +40,6 @@ function footerdisplay()
 
 
 
-
-function setErrorFlash($message){
-
-    $cookie_name = "error";
-    $cookie_value =  $message;
-    setcookie($cookie_name, $cookie_value, time() + 5, "/"); // 86400 = 1 day
-}
-
-
-
-
-function setSuccessFlash($message){
-
-    $cookie_name = "serror";
-    $cookie_value =  $message;
-    setcookie($cookie_name, $cookie_value, time() + 5, "/"); // 86400 = 1 day
-}
 ?>
 
 

@@ -1,20 +1,22 @@
 <?php
+require_once "./common/functions.php";
 
-require_once "./common/template.php";
+session_start();
+
 
 $password = $_POST['password'];
-$email = $_POST['email'];
+$username = $_POST['username'];
 
 
 require_once "Database.php";
-$conn = new Database("admin.json");
-$users = $conn->get_all_records();
+$conn = new Database("data/admin.json");
+$users = $conn->all_records;
 
+//var_dump($users);exit();
 
-
-function check_if_user_exists($users,$email){
+function check_if_user_exists($users,$username){
 foreach ($users as $user) {
-   if ($user['email'] == $email) {
+   if ($user['username'] == $username) {
    	
       return $user;
 
@@ -24,25 +26,25 @@ return false;
 }
 
 
-if (!check_if_user_exists($users,$email)){
+if (!check_if_user_exists($users,$username)){
 	//user  not exists
 setErrorFlash("Wrong Credential");
-header("Location: index.php");
+redirect("index.php");
 
     
 }else{
-		$user = check_if_user_exists($users,$email);//returned user
-		  if ($user['email'] == $email && $user['password'] == $password) {
-              session_start();
+		$user = check_if_user_exists($users,$username);//returned user
+		  if ($user['username'] == $username && $user['password'] == $password) {
+
       	$_SESSION['user'] = $user;
     
 	
-          header("Location: send.php");
-	
+          redirect("send.php");
+
 	
       }else{
         setErrorFlash("Incorrect Password");
-        header("Location: index.php");
+        redirect("index.php");
 
 	
 		}

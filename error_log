@@ -1,0 +1,80 @@
+[15-May-2020 09:00:28 America/Boise] PHP Parse error:  syntax error, unexpected ')' in /home4/rajang/public_html/note/token.php on line 2
+[15-May-2020 12:11:08 America/Boise] PHP Catchable fatal error:  Object of class Database could not be converted to string in /home4/rajang/public_html/note/Database.php on line 35
+[15-May-2020 12:17:57 America/Boise] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 36
+[15-May-2020 12:17:57 America/Boise] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 36
+[15-May-2020 12:17:57 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 40
+[15-May-2020 12:18:19 America/Boise] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 36
+[15-May-2020 12:18:19 America/Boise] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 36
+[15-May-2020 12:18:19 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 40
+[15-May-2020 12:20:35 America/Boise] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 36
+[15-May-2020 12:20:35 America/Boise] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 36
+[15-May-2020 12:20:35 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 40
+[15-May-2020 12:20:41 America/Boise] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 36
+[15-May-2020 12:20:41 America/Boise] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 36
+[15-May-2020 12:20:41 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 40
+[15-May-2020 12:23:50 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 16
+[15-May-2020 12:23:50 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:23:50 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 30
+[15-May-2020 12:24:03 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:24:03 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/send.php on line 7
+[15-May-2020 12:24:18 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:24:18 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/notify.php on line 7
+[15-May-2020 12:24:18 America/Boise] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home4/rajang/public_html/note/notify.php on line 55
+[15-May-2020 12:25:11 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:25:11 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/send.php on line 7
+[15-May-2020 12:25:45 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:25:45 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/notify.php on line 7
+[15-May-2020 12:25:45 America/Boise] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home4/rajang/public_html/note/notify.php on line 55
+[15-May-2020 12:27:25 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:27:25 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/send.php on line 7
+[15-May-2020 12:27:40 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 16
+[15-May-2020 12:27:40 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:27:40 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 30
+[15-May-2020 12:27:47 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 16
+[15-May-2020 12:27:47 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:27:47 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 30
+[15-May-2020 12:30:12 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 17
+[15-May-2020 12:30:12 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:30:12 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 31
+[15-May-2020 12:30:17 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 17
+[15-May-2020 12:30:17 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:30:17 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/process.php on line 31
+[15-May-2020 12:31:26 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:31:26 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/send.php on line 7
+[15-May-2020 12:32:21 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:32:21 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/send.php on line 7
+[15-May-2020 12:34:30 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/common/template.php on line 44
+[15-May-2020 12:34:30 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:57) in /home4/rajang/public_html/note/send.php on line 7
+[15-May-2020 12:40:05 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 19
+[15-May-2020 12:40:05 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:40) in /home4/rajang/public_html/note/common/functions.php on line 9
+[15-May-2020 12:40:05 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/rajang/public_html/note/common/template.php:40) in /home4/rajang/public_html/note/process.php on line 33
+[15-May-2020 12:52:22 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 12:53:29 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 12:55:18 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 12:56:35 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 12:56:45 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 12:57:17 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 12:57:26 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 12:57:35 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 12:58:43 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 13:00:34 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 13:00:36 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 13:00:40 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 13:01:18 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 13:01:22 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 13:02:32 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 13:02:39 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 13:02:47 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:15:59 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:16:05 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:16:25 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:18:41 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 17
+[15-May-2020 21:20:28 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:23:33 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:23:39 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:23:44 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:24:56 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:24:59 America/Boise] PHP Warning:  Invalid argument supplied for foreach() in /home4/rajang/public_html/note/process.php on line 18
+[15-May-2020 21:28:47 America/Boise] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home4/rajang/public_html/note/notify.php on line 57
+[15-May-2020 21:48:09 America/Boise] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home4/rajang/public_html/note/notify.php on line 57
+[15-May-2020 21:48:45 America/Boise] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home4/rajang/public_html/note/notify.php on line 57
